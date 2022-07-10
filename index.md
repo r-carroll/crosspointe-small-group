@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to my repo for Crosspointe small-group notes!
 
-You can use the [editor on GitHub](https://github.com/r-carroll/crosspointe-small-group/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Here is where you will find the note sheets for each week's dicussion.
 
 ### Markdown
 

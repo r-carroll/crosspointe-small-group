@@ -20,6 +20,8 @@ This week pray for one another that you would be committed to one another in lov
 ### Next Steps
 Read Revelation 2 and 3, as well as the introduction to every epistle written to a Church. Pray that God would show you the bond of fellowship these churches had and realize sin and unbelief destroy this fellowship. Epistles written to churches:
 * Romans
-* 1 Corinthians
-* 2 Corinthians
+* 1 and 2 Corinthians
 * Galatians 
+* Ephesians
+* 1 and 2 Thessalonians
+* Philippians

@@ -14,6 +14,21 @@ chose. 19 If all were a single member, where would the body be? 20 As it is, the
 2. At CrossPointe, like many other churches, the worship services and teaching can be found online. Is this a helpful resource to you? Why? What is the danger of not gathering with the body but watching online?
 3. Have you seen or been involved with church discipline in your lifetime? What is the purpose of calling believers out when they are living in sin?
 4. Do you know your spiritual gift? What areas would you like to serve in the church? As a small group, you should help one another serve in the church.
+
+> Examples of some of the spiritual gifts that we see today
+> * Administration
+> * Discernment
+> * Evangelism 
+> * Exhortation 
+> * Faith
+> * Giving
+> * Leadership 
+> * Mercy
+> * Pastor/Shepherd 
+> * Teaching
+> * Service 
+> * Wisdom
+
 5. CrossPointe church believes in meaningful church membership. Do you consider your membership at the church meaningful?
 
 ## Next Steps:

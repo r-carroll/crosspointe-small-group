@@ -1,4 +1,4 @@
-# Week 3 - The Dearest Place on Earth
+# Week 4 - The Dearest Place on Earth
 
 ## Big Idea
 We are given a charge in Matthew 28 that we refer to as the great commission. With this charge we often reflect on the evangelism aspect and sometimes forget the call given of baptizing believers, and following the commands, and teaching of Jesus. It is important to remember these teachings, and as a church to carry out the ordinances that Christ established for His bride.

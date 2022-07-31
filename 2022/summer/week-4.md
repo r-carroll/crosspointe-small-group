@@ -12,8 +12,10 @@ The 11 disciples traveled to Galilee, to the mountain where Jesus had directed t
 1. What is the importance of the local church following the commands of Christ?
 2. In Acts 2:41 we see that 3,000 were added to the “Them” How were they added, and
 what were they added to?
+> In some translations such as the KJV "_unto them_" is italicized indicating it is not part of the original texts. For this reason, other translations such as ESV, NASB, YLT, etc. leave off _unto them_ entirely and render it *were added that day* instead. Regardless, this does not change *how* they were added or what they were added to. Read through the end of the chapter for extra context.
 3. Why is it important to understand Baptism & the Lord’s Supper?
 4. Is it ok to not partake in the Lord’s Supper?
+> Hint: Read 1 Corinthians 11:17-34.
 
 ## Next Steps
 Over the week, prepare your heart to take the Lord’s Supper and spend time reflecting and evaluating your life using the following three questions: Do you have unconfessed sin? Are you living as if the remembrance of what Jesus has done doesn’t matter? Lastly, do you have strife or anger against a brother or sister in Christ that needs to be taken care of? The next step for some is obedience through following in believer’s baptism.

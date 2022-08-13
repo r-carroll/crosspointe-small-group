@@ -1,7 +1,7 @@
 ---
 title: "Is being single better?"
 date: 2022-08-13
-draft: true
+draft: false
 author: "Ryan Carroll"
 ---
 

@@ -1,3 +1,9 @@
+---
+title: "Dearest Place on Earth - Part 5"
+date: 2022-08-07
+draft: false
+---
+
 # What Is Precious to Jesus?
 
 ## Big Idea

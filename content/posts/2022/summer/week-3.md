@@ -1,3 +1,9 @@
+---
+title: "Dearest Place on Earth - Part 3"
+date: 2022-07-24
+draft: false
+---
+
 # Week 3 - The Dearest Place on Earth
 
 ## Big Idea

@@ -1,3 +1,9 @@
+---
+title: "Dearest Place on Earth - Part 2"
+date: 2022-07-17
+draft: false
+---
+
 ## Big Idea
 The local Church is by God’s design, the place for us to grow in the Word of God, as we commit to Him and each other, with hearts that please Him in all that we do.
 

@@ -1,6 +1,6 @@
 ---
-title: "Summer - week 1"
-date: 2022-08-13T12:07:05-04:00
+title: "Dearest Place on Earth - Part 1"
+date: 2022-07-10
 draft: false
 ---
 

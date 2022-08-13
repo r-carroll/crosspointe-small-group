@@ -1,3 +1,10 @@
+---
+title: "Summer - week 1"
+date: 2022-08-13T12:07:05-04:00
+draft: false
+---
+
+
 ## Big Idea
 Ekklesia simply means “those who are called out.” As the Church, we are a group of believers called out by God from slavery of sin through faith in Jesus Christ. This shapes everything that we do. Every church should be obedient to the headship of Christ and submissive to the truths that he taught.
 

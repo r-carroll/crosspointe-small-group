@@ -37,4 +37,4 @@ willing, share it with your group the following week.
 ## Prayer Focus
 Pour out your heart to God. As you pray this week tell God everything on your heart. Tell Him your goals, dreams,
 desires, frustrations, fears, and gratitudes. Tell Him how you feel about Him, and what you think about Him. Ask God
-to show you areas in your life that you aren’t trusting in Him alone for
+to show you areas in your life that you aren’t trusting in Him alone for 

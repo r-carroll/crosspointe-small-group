@@ -37,4 +37,8 @@ willing, share it with your group the following week.
 ## Prayer Focus
 Pour out your heart to God. As you pray this week tell God everything on your heart. Tell Him your goals, dreams,
 desires, frustrations, fears, and gratitudes. Tell Him how you feel about Him, and what you think about Him. Ask God
-to show you areas in your life that you aren’t trusting in Him alone for 
+to show you areas in your life that you aren’t trusting in Him alone for.
+
+This does not have to be a psalm of lament, although it can be, it can be psalm of gratitude, of praise, of
+encouragement, of testimony. Try and write at least 3 verses. (Sentences) It doesn’t have to
+compete with Psalm 119. Ephesians 5:19 tells to us speak to one another with psalms. Sing to the Lord a new song.

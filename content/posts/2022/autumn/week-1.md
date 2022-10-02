@@ -47,8 +47,8 @@ or some winged creature tell the matter.
 ## Discussion Questions
 1. What was the most impactful thing from the text and the sermon this week?
 2. Solomon said wisdom helps one to succeed or gives someone an advantage. Talk
-about the ways wisdom helps God’s people succeed—can you name specific
-examples from Scripture?
+about the ways wisdom helps God’s people (us/you) succeed today and name specific
+examples from Scripture.
 3. Read verses 12-14. What are some ways you can know the difference between
 wise and foolish speech?
 4. Read verses 16-17. Solomon talked about foolish government leaders. How can

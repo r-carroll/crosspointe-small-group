@@ -45,3 +45,11 @@ presume, it is to know the future.
 
 -- <cite>Philip Graham Ryken, Ecclesiastes: Why Everything Matters, Preaching the Word (Wheaton, IL:
 Crossway Books, 2010), 245–246.</cite>
+
+## Make your voice heard
+One of the admonishments from this Sunday was to confront our leaders when they are foolish and urge them to follow God. How do you do that? One way, is to be aware of laws that are working their way through congress and contact our representatives and express our beliefs on the issue. 
+
+You can look up your representative and their contact information [here](https://www.house.gov/representatives/find-your-representative).
+
+## Vote!
+Another way to participate is ensure that you vote on your leaders. How can we complain about our leadership if we don't participate in the voting system? You can get started by [registering to vote](https://olvr.ohiosos.gov/).

@@ -1,6 +1,6 @@
 ---
 title: "Rejoice and Remember - Supplement"
-date: 2022-10-06
+date: 2022-10-16
 draft: false
 ---
 

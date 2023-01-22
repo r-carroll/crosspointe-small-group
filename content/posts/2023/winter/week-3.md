@@ -1,6 +1,6 @@
 ---
 title: "A Spiritual Transaction with the Creator of Heaven and Earth"
-date: 2023-01-15
+date: 2023-01-22
 draft: false
 ---
 

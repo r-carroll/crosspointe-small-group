@@ -3,41 +3,41 @@ const bodyParser = require("body-parser");
 const app = express();
 const port = 3000;
 const bucketName = 'smallgroup-tallies';
-const filePath = 'prayer-tally.json';
+const filePath = fileName = 'prayer-tally.json';
 const {Storage} = require('@google-cloud/storage');
 const storage = new Storage();
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.get('/prayer', (req, res) => {
-  res.send('Hello World!')
+app.get('/prayer', async (req, res) => {
+    const prayerMinutes = await getPrayerMinutes();
+    res.send(prayerMinutes);
 })
 
-app.post('/prayer',(request,response) => {
-    //code to perform particular action.
-    //To access POST variable use req.body()methods.
-    console.log(request.body);
+app.post('/prayer',async (request,response) => {
+    const currentPrayerMinutes = (await getPrayerMinutes())["prayer-tally"];
+    const newMinutes = currentPrayerMinutes + parseInt(request.query.minutes);
+    console.log('current', currentPrayerMinutes)
+    console.log('new',  parseInt(request.query.minutes))
+    await uploadFile({"prayer-tally": newMinutes})
+    response.sendStatus(200);
 });
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
 
-async function uploadFile() {
+async function uploadFile(file) {
     const options = {
-      destination: destFileName,
-      // Optional:
-      // Set a generation-match precondition to avoid potential race conditions
-      // and data corruptions. The request to upload is aborted if the object's
-      // generation number does not match your precondition. For a destination
-      // object that does not yet exist, set the ifGenerationMatch precondition to 0
-      // If the destination object already exists in your bucket, set instead a
-      // generation-match precondition using its generation number.
-      preconditionOpts: {ifGenerationMatch: generationMatchPrecondition},
+      destination: file
     };
-  
-    await storage.bucket(bucketName).upload(filePath, options);
-    console.log(`${filePath} uploaded to ${bucketName}`);
+    console.log(JSON.stringify(file));
+    await storage.bucket(bucketName).file(filePath).save(JSON.stringify(file)).catch(e => console.log(e));
   }
 
+  async function getPrayerMinutes() { 
+    // Downloads the file
+    const file = await storage.bucket(bucketName).file(fileName).download();
+    return JSON.parse(file[0].toString('utf8'));
+  }

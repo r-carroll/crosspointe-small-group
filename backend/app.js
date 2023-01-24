@@ -6,9 +6,11 @@ const bucketName = 'smallgroup-tallies';
 const filePath = fileName = 'prayer-tally.json';
 const {Storage} = require('@google-cloud/storage');
 const storage = new Storage();
+const cors = require('cors')
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+app.use(cors());
 
 app.get('/prayer', async (req, res) => {
     const prayerMinutes = await getPrayerMinutes();

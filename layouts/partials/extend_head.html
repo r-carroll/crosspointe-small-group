@@ -232,15 +232,45 @@ button:focus {
 </style>
 
 <script>
+    let prayerTally = 0;
     function init() {
     // enable active states for buttons in mobile safari
     document.addEventListener("touchstart", function () {}, false);
-
+    updateTally();
     setInputButtonState();
+}
 
-fetch('https://smallgroup.onrender.com/prayer')
+function updateTally() {
+    fetch('https://smallgroup.onrender.com/prayer')
   .then((response) => response.json())
-  .then((data) => console.log(data));
+  .then((data) => {
+    prayerTally = data['prayer-tally']
+    let tallyDisplay = document.getElementById('tally-display');
+    tallyDisplay.innerText = prayerTally;
+});
+}
+
+function addPrayerTime(event) {
+const hue = document.getElementById('hue');
+const minutes = hue.value;
+
+fetch('https://smallgroup.onrender.com/prayer?minutes=' + minutes, {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+  }
+})
+  .then((response) => 
+  {
+    response.json();
+    updateTally();
+    })
+  .then((data) => {
+    console.log('Success:', data);
+  })
+  .catch((error) => {
+    console.error('Error:', error);
+  });
 
 }
 
@@ -373,7 +403,7 @@ window.onload = init;
             </div>
             <button
                     type="button"
-                    onclick="submitPrayerTime(event)"
+                    onclick="addPrayerTime(event)"
                 >Add time</button>
         </div>
     </form>

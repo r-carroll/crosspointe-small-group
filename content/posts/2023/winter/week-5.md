@@ -8,7 +8,9 @@ draft: false
 A follower of Christ will put Christ and his commandments above everyone including
 self.
 
-## Read
+## Read:
+
+Matthew 10:34-39
 
 “Do not think that I have come to bring peace to the earth. I have not come to bring peace, but a
 sword. For I have come to set a man against his father, and a daughter against her mother, and

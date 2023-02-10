@@ -12,4 +12,4 @@ services:
       PGPASSWORD: ${PGPASSWORD}
       PGDATABASE: smallgroupdb
     volumes:
-       - ./data:/var/lib/postgresql/data
+       - /media/usbdrive/smallgroup/db:/var/lib/postgresql/data

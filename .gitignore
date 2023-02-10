@@ -1,2 +1,6 @@
 backend/node_modules
 backend/creds.json
+db/data
+**/node_modules/**
+pi/backend/env.sh
+db/env.sh

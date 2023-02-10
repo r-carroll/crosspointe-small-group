@@ -1,0 +1,15 @@
+# docker-compose.yml
+version: '3.1'
+services:
+  db:
+    image: postgres
+    ports:
+    - "127.0.0.1:5432:5432"
+    restart: always
+    environment:
+      PGHOST: '127.0.0.1'
+      PGUSER: ${PGUSER}
+      PGPASSWORD: ${PGPASSWORD}
+      PGDATABASE: smallgroupdb
+    volumes:
+       - ./data:/var/lib/postgresql/data

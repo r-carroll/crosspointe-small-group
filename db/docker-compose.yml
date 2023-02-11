@@ -8,8 +8,8 @@ services:
     restart: always
     environment:
       PGHOST: '127.0.0.1'
-      PGUSER: ${PGUSER}
-      PGPASSWORD: ${PGPASSWORD}
-      PGDATABASE: smallgroupdb
+      POSTGRES_USER: ${PGUSER}
+      POSTGRES_DB: smallgroupdb
+      POSTGRES_PASSWORD: ${PGPASSWORD}
     volumes:
        - /media/usbdrive/smallgroup/db:/var/lib/postgresql/data

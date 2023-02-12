@@ -2,14 +2,14 @@
 Description=Smallgroup API
 
 [Service]
-ExecStart=/var/www/smallgroup-api/app.js
+ExecStart=/home/pi/github/crosspointe-small-group/pi/backend/app.js
 Restart=always
 User=nobody
 # Note Debian/Ubuntu uses 'nogroup', RHEL/Fedora uses 'nobody'
 Group=nogroup
 Environment=PATH=/usr/bin:/usr/local/bin
 Environment=NODE_ENV=production
-WorkingDirectory=/var/www/smallgroup-api
+WorkingDirectory=/home/pi/github/crosspointe-small-group/pi/backend
 
 [Install]
 WantedBy=multi-user.target

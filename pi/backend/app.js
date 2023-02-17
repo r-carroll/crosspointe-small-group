@@ -36,7 +36,7 @@ app.listen(port, '127.0.0.1', () => {
 
 async function savePrayerEntry(duration) {
   const writeQuery = 'insert into prayers (duration, submitted_time)' +
-    `values ($1, TO_TIMESTAMP($2, 'MM/DD/YYYY HH24:MI:SS'))`;
+    `values ($1, TO_TIMESTAMP($2, 'DD/MM/YYYY, HH24:MI:SS'))`;
   const values = [duration, new Date().toLocaleString()];
   
     await queryDB(writeQuery, values);

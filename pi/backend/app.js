@@ -38,7 +38,9 @@ async function savePrayerEntry(duration) {
 
 async function getPrayerMinutes() { 
   const readQuery = 'select sum(duration) from prayers;';
-  return (await queryDB(readQuery)).rows[0].sum;
+  const readResult = await queryDB(readQuery);
+  console.log(readResult);
+  return readResult.rows[0].sum;
 }
 
 async function queryDB(query, values = null) {

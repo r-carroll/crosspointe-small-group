@@ -20,8 +20,14 @@ app.get('/prayer', async (req, res) => {
 
 app.post('/prayer',async (request,response) => {
   const duration = parseInt(request.query.minutes);
-  await savePrayerEntry(duration)
-  response.sendStatus(200);
+  try {
+    await savePrayerEntry(duration)
+    response.sendStatus(200);
+  }
+  catch(error) {
+    response.sendStatus(500);
+  }
+  
 });
 
 app.listen(port, '127.0.0.1', () => {
@@ -30,7 +36,7 @@ app.listen(port, '127.0.0.1', () => {
 
 async function savePrayerEntry(duration) {
   const writeQuery = 'insert into prayers (duration, submitted_time)' +
-    'values ($1, $2)';
+    `values ($1, TO_TIMESTAMP($2, 'MM/DD/YYYY HH24:MI:SS'))`;
   const values = [duration, new Date().toLocaleString()];
   
     await queryDB(writeQuery, values);
@@ -54,6 +60,7 @@ async function queryDB(query, values = null) {
     console.log(response);
   } catch (err) {
     console.log(err.stack);
+    throw Error("test")
   } finally {
     client.release();
   }

@@ -1,2 +1,2 @@
 # Login
-psql -d mydb -U myuser
+psql -d smallgroupdb -U myuser

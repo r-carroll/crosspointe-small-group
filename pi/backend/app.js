@@ -15,7 +15,7 @@ app.use(cors());
 
 app.get('/prayer', async (req, res) => {
     const prayerMinutes = await getPrayerMinutes();
-    res.send(prayerMinutes);
+    res.send(200, prayerMinutes);
 })
 
 app.post('/prayer',async (request,response) => {
@@ -38,7 +38,7 @@ async function savePrayerEntry(duration) {
 
 async function getPrayerMinutes() { 
   const readQuery = 'select sum(duration) from prayers;';
-  const readResult = await queryDB(readQuery);
+  let readResult = await queryDB(readQuery);
   return readResult.rows[0].sum || 0;
 }
 

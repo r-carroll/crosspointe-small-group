@@ -241,7 +241,7 @@ button:focus {
 }
 
 function updateTally() {
-    fetch('https://smallgroup.onrender.com/prayer')
+    fetch('https://api.carrollmedia.dev/prayer')
   .then((response) => response.json())
   .then((data) => {
     prayerTally = data['prayer-tally']
@@ -254,7 +254,7 @@ function addPrayerTime(event) {
 const hue = document.getElementById('hue');
 const minutes = hue.value;
 
-fetch('https://smallgroup.onrender.com/prayer?minutes=' + minutes, {
+fetch('https://api.carrollmedia.dev/prayer?minutes=' + minutes, {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',

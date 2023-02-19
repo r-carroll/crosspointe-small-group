@@ -11,7 +11,10 @@ Commands and tools to help with getting the system up and running
 * Create the mount: `sudo mount /dev/sda1 /media/usbdrive`
 * To unmount: `sudo umount /media/usbdrive`
 
-### Services
+### Services 
+This app runs daemonized via [PM2](https://pm2.keymetrics.io/)
+
+#### Services [deprecated]
 The node app runs on the system via `systemctl`. 
 * Copy the service file into `/etc/systemd/system`
 * Start it with `systemctl start smallgroup-api`

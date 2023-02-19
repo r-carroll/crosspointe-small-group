@@ -244,7 +244,7 @@ function updateTally() {
     fetch('https://api.carrollmedia.dev/prayer')
   .then((response) => response.json())
   .then((data) => {
-    prayerTally = data['prayer-tally']
+    prayerTally = data
     let tallyDisplay = document.getElementById('tally-display');
     tallyDisplay.innerText = prayerTally;
 });

@@ -37,3 +37,6 @@ PGPORT=5432
 ```
 
 Be sure to place these variables in the `/etc/environment` file
+
+### SSL 
+The backend is hosted on a custom domain and ssl is provided via [Certbot](https://varhowto.com/how-to-enable-https-for-nginx-websites-on-raspbian-raspberry-pi-certbot-python-certbot-nginx-automatic-raspbian/)

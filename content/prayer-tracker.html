@@ -5,7 +5,7 @@ draft: false
 
 <div>
   <h3><span class="tally-display-hours"></span> hours and <span class="tally-display-minutes"></span> minutes total</h3>
-    <canvas id="myChart"></canvas>
+    <canvas id="hoursChart"></canvas>
   </div>
   
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -13,24 +13,29 @@ draft: false
   
   
   <script>
-    const ctx = document.getElementById('myChart');
+    getTimespans().then((timespans) => {
+      const [hoursMap, daysMap] = timespans;
+      console.log([...hoursMap.entries()])
+
+      const ctx = document.getElementById('hoursChart');
   
-    new Chart(ctx, {
-      type: 'bar',
-      data: {
-        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-        datasets: [{
-          label: '# of Votes',
-          data: [12, 19, 3, 5, 2, 3],
-          borderWidth: 1
-        }]
-      },
-      options: {
-        scales: {
-          y: {
-            beginAtZero: true
+      new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: [...hoursMap.keys()],
+          datasets: [{
+            label: 'Minutes in prayer',
+            data: [...hoursMap.values()],
+            borderWidth: 1
+          }]
+        },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true
+            }
           }
         }
-      }
-    });
+      });
+    }).catch(error => console.log(error));
   </script>

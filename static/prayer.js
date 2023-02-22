@@ -1,14 +1,15 @@
+const apiUrl = 'https://api.carrollmedia.dev';
 let prayerTally = 0;
     function init() {
-        console.log("initting")
     // enable active states for buttons in mobile safari
     document.addEventListener("touchstart", function () {}, false);
     updateTally();
+    // getTimespans();
     setInputButtonState();
 }
 
 function updateTally() {
-    fetch('https://api.carrollmedia.dev/prayer')
+    fetch(apiUrl + '/prayer')
   .then((response) => response.json())
   .then((data) => {
     totalMinutes = data;
@@ -27,11 +28,44 @@ function updateTally() {
 });
 }
 
+async function getTimespans() {
+    const response = await fetch('http://localhost:3000/prayer/timespan');
+    const json = await response.json();
+    let hoursMap = new Map();
+    let daysMap = new Map();
+    let timespans = json.timespans;
+    timespans.forEach(element => {
+        populateHoursMap(hoursMap, element);
+        populateDaysMap(daysMap, element);
+    });
+    return [hoursMap, daysMap];
+}
+
+function populateDaysMap(daysMap, element) {
+    if (daysMap.get(element.day)) {
+        const currentSum = daysMap.get(element.day);
+        daysMap.set(element.day, currentSum + element.duration);
+    } else {
+        daysMap.set(element.day, element.duration);
+    }
+}
+
+function populateHoursMap(hoursMap, element) {
+    const formattedHour = element.hour > 12 ? element.hour - 12 + ' pm' : element.hour + ' am';
+    element.hour = formattedHour;
+    if (hoursMap.get(element.hour)) {
+        const currentSum = hoursMap.get(element.hour);
+        hoursMap.set(element.hour, currentSum + element.duration);
+    } else {
+        hoursMap.set(element.hour, element.duration);
+    }
+}
+
 function addPrayerTime(event) {
 const hue = document.getElementById('hue');
 const minutes = hue.value;
 
-fetch('https://api.carrollmedia.dev/prayer?minutes=' + minutes, {
+fetch(apiUrl + '/prayer?minutes=' + minutes, {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',

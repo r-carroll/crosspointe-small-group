@@ -29,7 +29,7 @@ function updateTally() {
 }
 
 async function getTimespans() {
-    const response = await fetch('http://localhost:3000/prayer/timespan');
+    const response = await fetch(apiUrl + '/prayer/timespan');
     const json = await response.json();
     let hoursMap = new Map();
     let daysMap = new Map();

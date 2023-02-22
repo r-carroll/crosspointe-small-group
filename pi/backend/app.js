@@ -18,6 +18,11 @@ app.get('/prayer', async (req, res) => {
     res.send(200, prayerMinutes);
 })
 
+app.get('/prayer/timespan', async (req, res) => {
+  const timespans = await getEntriesByTimespan();
+  res.send(200, timespans);
+})
+
 app.post('/prayer',async (request,response) => {
   const duration = parseInt(request.query.minutes);
   try {
@@ -46,6 +51,17 @@ async function getPrayerMinutes() {
   const readQuery = 'select sum(duration) from prayers;';
   let readResult = await queryDB(readQuery);
   return readResult.rows[0].sum || 0;
+}
+
+async function getEntriesByTimespan() {
+  const readQuery = `select json_agg(subquery) as timespans from (select *, 
+    extract(hour from submitted_time) as hour,
+    extract(dow from submitted_time) as day
+     from prayers where submitted_time is not null order by hour) as subquery;`
+  
+  const readResult = await queryDB(readQuery);
+
+  return readResult.rows[0];
 }
 
 async function queryDB(query, values = null) {

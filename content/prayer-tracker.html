@@ -5,7 +5,12 @@ draft: false
 
 <div>
   <h3><span class="tally-display-hours"></span> hours and <span class="tally-display-minutes"></span> minutes total</h3>
+
+  <h2>Hours of the day</h2>
     <canvas id="hoursChart"></canvas>
+  
+  <h2>Days of the week</h2>
+    <canvas id="daysChart"></canvas>
   </div>
   
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -15,17 +20,36 @@ draft: false
   <script>
     getTimespans().then((timespans) => {
       const [hoursMap, daysMap] = timespans;
-      console.log([...hoursMap.entries()])
 
-      const ctx = document.getElementById('hoursChart');
+      const hoursChart = document.getElementById('hoursChart');
+      const daysChart = document.getElementById('daysChart');
   
-      new Chart(ctx, {
+      new Chart(hoursChart, {
         type: 'bar',
         data: {
           labels: [...hoursMap.keys()],
           datasets: [{
             label: 'Minutes in prayer',
             data: [...hoursMap.values()],
+            borderWidth: 1
+          }]
+        },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true
+            }
+          }
+        }
+      });
+      
+      new Chart(daysChart, {
+        type: 'bar',
+        data: {
+          labels: [...daysMap.keys()],
+          datasets: [{
+            label: 'Minutes in prayer',
+            data: [...daysMap.values()],
             borderWidth: 1
           }]
         },

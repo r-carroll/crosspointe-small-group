@@ -37,6 +37,8 @@ async function getTimespans() {
     timespans.forEach(element => {
         populateHoursMap(hoursMap, element);
         populateDaysMap(daysMap, element);
+
+        daysMap = new Map([...daysMap.entries()].sort());
     });
     return [hoursMap, daysMap];
 }

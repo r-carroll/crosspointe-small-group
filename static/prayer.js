@@ -37,9 +37,8 @@ async function getTimespans() {
     timespans.forEach(element => {
         populateHoursMap(hoursMap, element);
         populateDaysMap(daysMap, element);
-
-        daysMap = new Map([...daysMap.entries()].sort());
     });
+    daysMap = formatDaysMap(daysMap);
     return [hoursMap, daysMap];
 }
 
@@ -61,6 +60,43 @@ function populateHoursMap(hoursMap, element) {
     } else {
         hoursMap.set(element.hour, element.duration);
     }
+}
+
+function formatDaysMap(daysMap) {
+    daysMap = new Map([...daysMap.entries()].sort());
+    let formattedMap = new Map();
+    daysMap.forEach((value, key) => {
+        formattedMap.set(translateDays(key), value);
+    })
+    return formattedMap;
+}
+
+function translateDays(dayOfWeek) {
+    let formattedDay;
+    switch(dayOfWeek) {
+        case 0:
+            formattedDay = 'Sunday';
+            break;
+        case 1:
+            formattedDay = 'Monday';
+            break;
+        case 2:
+            formattedDay = 'Tuesday';
+            break;
+        case 3:
+            formattedDay = 'Wednesday';
+            break;
+        case 4:
+            formattedDay = 'Thursday';
+            break;
+        case 5:
+            formattedDay = 'Friday';
+            break;
+        case 6:
+            formattedDay = 'Saturday';
+            break;
+    }
+    return formattedDay;
 }
 
 function addPrayerTime(event) {

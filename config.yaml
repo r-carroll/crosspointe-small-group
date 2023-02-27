@@ -1,0 +1,11 @@
+baseURL: https://smallgroup.carrollmedia.dev/
+languageCode: 'en-us'
+title: 'Small Group Notes'
+theme: "PaperMod"
+params:
+  ShowBreadCrumbs: true
+  profileMode:
+    enabled: false
+    # buttons:
+    #   - name: Prayer
+    #     url: "/prayer-tracker"

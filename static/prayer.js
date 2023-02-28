@@ -39,7 +39,8 @@ async function getTimespans() {
         populateDaysMap(daysMap, element);
     });
     daysMap = formatDaysMap(daysMap);
-    return [hoursMap, daysMap];
+    const weeklyMap = populateWeeklyMap(timespans);
+    return [hoursMap, daysMap, weeklyMap];
 }
 
 function populateDaysMap(daysMap, element) {
@@ -62,6 +63,31 @@ function populateHoursMap(hoursMap, element) {
     }
 }
 
+function populateWeeklyMap(timespans) {
+    const sunday = getSunday();
+    let weeklyMap = createBaseWeeklyMap();
+    timespans = timespans.filter(element => isInCurrentWeek(element, sunday))
+    timespans.forEach(element => {
+        const currentSum = weeklyMap.get(translateDays(element.day));
+        weeklyMap.set(translateDays(element.day), currentSum + element.duration);
+    });
+
+    return weeklyMap;
+}
+
+function isInCurrentWeek(element, sunday) {
+    const submittedTime = new Date(element.submitted_time);
+    return (submittedTime > sunday);
+}
+
+function getSunday() {
+    const today = new Date();
+    const sunday = new Date(today.setDate(today.getDate() - today.getDay()));
+    sunday.setHours(0);
+    sunday.setMinutes(0);
+    return sunday;
+}
+
 function formatDaysMap(daysMap) {
     daysMap = new Map([...daysMap.entries()].sort());
     let formattedMap = new Map();
@@ -69,6 +95,18 @@ function formatDaysMap(daysMap) {
         formattedMap.set(translateDays(key), value);
     })
     return formattedMap;
+}
+
+function createBaseWeeklyMap() {
+    return new Map([
+        ['Sunday', 0],
+        ['Monday', 0],
+        ['Tuesday', 0],
+        ['Wednesday', 0],
+        ['Thursday', 0],
+        ['Friday', 0],
+        ['Saturday', 0]
+    ])
 }
 
 function translateDays(dayOfWeek) {

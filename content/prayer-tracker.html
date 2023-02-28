@@ -270,6 +270,9 @@ button:focus {
     </form>
 </div>
 
+<h2>Weekly Prayer</h2>
+    <canvas id="weekChart"></canvas>
+    
   <h2>Hours of the day</h2>
     <canvas id="hoursChart"></canvas>
   
@@ -283,11 +286,32 @@ button:focus {
   
   <script>
     getTimespans().then((timespans) => {
-      const [hoursMap, daysMap] = timespans;
+      const [hoursMap, daysMap, weeklyMap] = timespans;
+      const endIndex = daysMap.size - 1;
 
       const hoursChart = document.getElementById('hoursChart');
       const daysChart = document.getElementById('daysChart');
+      const weekChart = document.getElementById('weekChart');
   
+      new Chart(weekChart, {
+        type: 'line',
+        data: {
+          labels: [...weeklyMap.keys()],
+          datasets: [{
+            label: 'Minutes in prayer',
+            data: [...weeklyMap.values()],
+            borderWidth: 1
+          }]
+        },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true
+            }
+          }
+        }
+      });
+      
       new Chart(hoursChart, {
         type: 'bar',
         data: {

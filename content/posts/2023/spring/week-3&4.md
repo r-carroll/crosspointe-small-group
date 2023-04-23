@@ -8,7 +8,7 @@ draft: false
 God is faithful to His promise, even when it seems He is absent.
 
 ## Read
-[Esther 1:1-9](https://www.bible.com/bible/59/EST.1.ESV)
+[Esther 1:1-22](https://www.bible.com/bible/59/EST.1.ESV)
 
 ## Discussion Questions
 1. What was the most impactful thing from the text and the sermon the past two weeks?

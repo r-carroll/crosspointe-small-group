@@ -28,11 +28,12 @@ wanted us to remember the judgment of the children of Israel? Read 2 Peter 2, 1 
 19
 2. Think of a time when you went rogue? Meaning you went outside your position given to you by some
 authority (boss, teacher, parent, spouse), and did what you wanted, not what was assigned or
-commanded or given for you to do. Did you get caught? God knowing everything knows when you rebel
+commanded or given for you to do. Did you get caught? God, knowing everything, knows when you rebel
 against clear commandments given in the Word of God. Discuss why God hates rebellion against his
 Word.
 3. How do you identify a spiritual counterfeit? Especially if those who are apostates know and understand
 certain truths about the Bible.
+> **Hint**: Think back to the points of Ben's sermon
 4. Where do we draw the line when it comes to witchcraft and demonology? Should we be engaging our
 mind with something that God has clearly called sin? Do we revere even the demons enough to know that
 they have more power than what we may think or know?

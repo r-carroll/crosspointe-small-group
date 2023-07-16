@@ -36,3 +36,5 @@ reading. We must know the Word to recognize false teaching and refute it.
 Ask God for wisdom and understanding as you read his Word. As you read
 books or blogs from others or listen to podcasts pray that God would help you to have
 discernment and to be able to identify error.
+
+## [Photo game](https://zp9lz1qpgle.typeform.com/to/WxCXRWrX)

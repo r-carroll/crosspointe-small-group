@@ -4,6 +4,9 @@ date: 2023-07-16
 draft: false
 ---
 
+## Ice Breaker
+If Rebecca was a dessert, what would she be and why?
+
 ## Main Idea:
 We must be active listeners to contend against apostasy
 

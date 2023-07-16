@@ -8,18 +8,7 @@ draft: false
 We must be active listeners to contend against apostasy
 
 ## Jude 11–16
-Woe to them! For they walked in the way of Cain and abandoned themselves for the sake of
-gain to Balaam’s error and perished in Korah’s rebellion. These are hidden reefs at your love
-feasts, as they feast with you without fear, shepherds feeding themselves; waterless clouds,
-swept along by winds; fruitless trees in late autumn, twice dead, uprooted; wild waves of the
-sea, casting up the foam of their own shame; wandering stars, for whom the gloom of utter
-darkness has been reserved forever.
-It was also about these that Enoch, the seventh from Adam, prophesied, saying, “Behold, the
-Lord comes with ten thousands of his holy ones, to execute judgment on all and to convict all
-the ungodly of all their deeds of ungodliness that they have committed in such an ungodly way,
-and of all the harsh things that ungodly sinners have spoken against him.” These are grumblers,
-malcontents, following their own sinful desires; they are loud-mouthed boasters, showing
-favoritism to gain advantage. (ESV)
+[Bible app link](https://www.bible.com/bible/59/JUD.1.ESV)
 
 ## Discussion Questions
 1. What stood out to you, made you think, or was something that you like, or remember

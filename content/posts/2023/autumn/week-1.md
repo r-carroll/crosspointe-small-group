@@ -1,4 +1,11 @@
-## Big Idea: One must learn to accept others, whatever their social status or class. He must show courtesy
+---
+title: "Faith That Serves All"
+date: 2023-10-01
+draft: false
+---
+
+## Big Idea: 
+One must learn to accept others, whatever their social status or class. He must show courtesy
 to all, compassion for all, and consistency to all. Holding to the Faith in our Lord Jesus Christ, and fulfilling
 the royal law are key in a faith that works.
 

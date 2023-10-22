@@ -8,6 +8,7 @@ draft: false
 The wisdom that guides your life cannot be hidden.
 
 ## Read: James 3:1-12
+[Bible app link](https://www.bible.com/bible/59/JAS.3.ESV)
 
 ## Discussion Questions
 1. What insight, principle, or observation from this week’s sermon did you find to be the

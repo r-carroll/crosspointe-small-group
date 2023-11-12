@@ -3,7 +3,6 @@ title: "Change of Plans"
 date: 2023-11-12
 draft: false
 ---
-
 ## Big Idea
 Don’t be arrogant, Consider and Submit to God
 

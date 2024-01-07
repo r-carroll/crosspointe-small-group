@@ -1,6 +1,11 @@
+---
+title: "Serve The Lord: Week 1"
+date: 2024-01-07
+draft: false
+---
+
 # Big Idea
 The Domino Effect
-Serve The Lord: Week 1 | Week of January 7, 2024
 Those whom God has saved must serve Him. 
 ## Read: 
 Joshua [24:14-15](https://www.bible.com/bible/59/JOS.24.ESV)

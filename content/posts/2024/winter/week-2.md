@@ -1,6 +1,10 @@
+---
+title: "Attitude Affects Everything"
+date: 2024-01-14
+draft: false
+---
+
 ## Big Idea
-Attitude Affects Everything
-Serve The Lord: Week 2 | Week of January 14, 2024
 A godly servant must maintain the right attitude. Read: Luke 17:7-10
 
 ## Discussion Questions

@@ -1,10 +1,17 @@
+---
+title: "Gifted to serve"
+date: 2024-01-21
+draft: false
+---
+
 ## Big Idea
-Gifted To Serve
-Serve The Lord: Week 3 | Week of January 21, 2024
-God gives people gifts with which they can serve Him. Read: 1 Corinthians 12:4-11
+God gives people gifts with which they can serve Him. 
+## Read: 
+[1 Corinthians 12:4-11](https://www.bible.com/bible/59/1CO.12.ESV)
 > This week's discussion centers around spiritual gifts and using those gifts. 
 To help you identify the gifts you've been given if you don't already know what yours are,
 you can [take the assessment here](https://groupleaders.org/curriculum-feed/spiritual-gift-assessment). Open the resource guide in another tab as you watch the video. 
+If you'd like to go even further, you can also [take the spiritual pathways test](https://groupleaders.org/curriculum-feed/spiritual-pathways-activity#personal-assessment)
 ## Discussion Questions
 1. What insight, principle, or observation from this week’s sermon was the most helpful, eye- opening, or troubling? Explain.
 2. Have you ever been hindered from serving because you did not think you had anything to offer? Did you overcome that belief? If so, what helped you gain the confidence to serve?

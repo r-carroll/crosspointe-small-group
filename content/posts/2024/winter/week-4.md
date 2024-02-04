@@ -9,6 +9,8 @@ draft: false
 ## Read: 
 [1 Corinthians 3:10-15](https://www.bible.com/bible/59/1CO.3.ESV)
 
+Malachi 1
+
 ## Discussion Questions
 1. Where in this passage could you point to correct someone who suggests we are saved by works? What are some other passages of Scripture which more explicitly correct this thinking?
 2. How should knowing that God will reward believers’ service affect how we live?

@@ -1,6 +1,9 @@
- 
+---
+title: "Guard the Good Deposit"
+date: 2024-02-11
+draft: false
+---
 
-The Life of a Steward: Guard the Good Deposit
 ## Read
 [2 Tim 1:8-14](https://www.bible.com/bible/59/2TI.1.ESV)
 ## Questions
@@ -10,7 +13,7 @@ The Life of a Steward: Guard the Good Deposit
 4. What are possible stumbling blocks that might prevent you from effectively passing on the good deposit to others?
 
 ## Next Steps
-● Reach out to someone who has discipled you in the faith. Thank him or her, for sharing specific ways in which God has used this person in your life.
+* Reach out to someone who has discipled you in the faith. Thank him or her, for sharing specific ways in which God has used this person in your life.
 ## Prayer Focus
-● If you’re already dicipleing others in the faith, ask God for continued wisdom so that your efforts will be even more effective.
-● If you can’t think of anyone you’re mentoring, pray that God would show you people in your sphere of influence who would benefit from this. And pray that He would lead you as you begin to lead these individuals.
+* If you’re already dicipleing others in the faith, ask God for continued wisdom so that your efforts will be even more effective.
+* If you can’t think of anyone you’re mentoring, pray that God would show you people in your sphere of influence who would benefit from this. And pray that He would lead you as you begin to lead these individuals.

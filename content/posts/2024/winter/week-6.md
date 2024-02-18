@@ -1,4 +1,8 @@
-Shrewd Stewardship
+---
+title: "Shrewd Stewardship"
+date: 2024-02-18
+draft: false
+---
 
 ## Big Idea
 Money holds no virtuous value, it simply is a means to an end. Money should not control our
@@ -7,7 +11,7 @@ the absolute fullest measure we can in this life. We should steward our resource
 them to serve others, the church, and the mission of the church is to further the kingdom of God.
 
 ## Read
-Luke 16:1-16
+[Luke 16:1-16](https://www.bible.com/bible/59/LUK.16.ESV)
 
 ## Discussion Questions
 1. The parable that Jesus gives is really a shocking parable, because Jesus seems to praise a

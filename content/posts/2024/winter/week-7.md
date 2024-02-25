@@ -1,4 +1,10 @@
- ## Main Idea:
+---
+title: "Judges"
+date: 2024-02-25
+draft: false
+---
+
+## Main Idea:
 The Foolishness of Disregarding God Small Group Questions Judges
 Disregarding God brings disastrous consequences
 

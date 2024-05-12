@@ -1,9 +1,15 @@
+---
+title: "The Wrath of God pt. 2"
+date: 2024-05-12
+draft: false
+---
+
 
 ## Big Idea
 God’s wrath cannot be ignored. 
 
 ## Read: 
-Romans 1:18
+[Romans 1:18](https://www.bible.com/bible/59/ROM.1.ESV)
 
 ## Discussion Questions
 1. Reflecting on the concept of God's holiness, why do you think it's challenging for humans to fully grasp the idea that God is both transcendent and morally pure? How does this understanding impact our view of sin and our relationship with God?

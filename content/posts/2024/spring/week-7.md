@@ -1,10 +1,14 @@
-
+---
+title: "When God gives up"
+date: 2024-05-19
+draft: false
+---
 
 ## Big Idea
 Those who oppose God invite destruction. 
 
 ## Read: 
-Romans 1:19-32
+[Romans 1:19-32](https://www.bible.com/bible/59/ROM.1.ESV)
 
 ## Discussion Questions
 1. Romans 1:24-25 explains that God turns people over to their selfish desires due to their rejection of Him. How do these selfish desires manifest in today's society, and what are some examples of how they lead to personal and societal destruction?

@@ -1,5 +1,10 @@
- Serve the Lord: Equipped with the Word
-Called through the Word to the Word
+---
+title: "Serve the Lord: Equipped with the Word"
+date: 2024-07-07
+draft: false
+---
+ 
+# Called through the Word to the Word
 
 ## Scripture: 
 Ephesians 4:1-16

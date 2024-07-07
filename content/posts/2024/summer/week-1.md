@@ -7,7 +7,7 @@ draft: false
 # Called through the Word to the Word
 
 ## Scripture: 
-Ephesians 4:1-16
+[Ephesians 4:1-16](https://www.bible.com/bible/59/EPH.4.ESV)
 
 ## Questions
 1. What stood out to you in this week’s message? What was good, helpful, convicting, troubling, or led to more questions for you?

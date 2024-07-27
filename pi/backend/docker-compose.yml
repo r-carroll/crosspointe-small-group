@@ -1,0 +1,10 @@
+services:
+  api:
+    image: carrollmedia/smallgroup-api
+    ports:
+    - "3005:3000"
+    restart: unless-stopped
+    environment:
+      PGHOST: '192.168.8.3'
+      PGDATABASE: 'postgres'
+      PGPORT: 5433

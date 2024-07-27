@@ -1,0 +1,353 @@
+---
+title: "Time Spent reading the Word"
+draft: false
+---
+
+<style>
+  @import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+
+:root {
+  --color-black: #112c34;
+  --color-blue-dark: #65849a;
+  --color-mustard-light: #ede6d9;
+  --color-mustard-extra-light: #fcf9ed;
+  --color-mustard-midtone: #9c7830;
+}
+
+#prayer-section {
+  width: 100%;
+  display: block;
+}
+
+.black {
+  color:black;
+}
+
+form {
+  direction: ltr;
+  right: 0;
+  width: 100%;
+  max-width: 340px;
+
+  padding: 56px 48px;
+
+  border-radius: 40px;
+
+  box-shadow: 0px 8px 40px rgba(128, 128, 128, 0.15);
+
+  display: block;
+  /* flex-direction: column; */
+  align-items: center;
+
+  background-color: #fffef9;
+}
+
+form > div {
+  margin-bottom: 32px;
+}
+
+form > div:last-child {
+  margin-bottom: 0;
+}
+
+.number-input-container {
+  width: 244px;
+
+  display: grid;
+  grid-template-columns: 48px auto 48px;
+}
+
+label {
+  display: inline-block;
+
+  margin-bottom: 4px;
+
+  font-size: 12px;
+  line-height: 24px;
+
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: var(--color-blue-dark);
+}
+
+.number-input {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+
+  background-color: var(--color-mustard-extra-light);
+
+  overflow: hidden;
+}
+
+input[type="number"] {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+  -moz-appearance: none;
+  appearance: none;
+
+  position: relative;
+
+  width: 100%;
+  min-width: 100%;
+  height: 48px;
+
+  background-color: var(--color-mustard-extra-light);
+
+  border: 1px solid var(--color-mustard-light);
+  border-left: 1px solid rgba(0, 0, 0, 0);
+  border-right: 1px solid rgba(0, 0, 0, 0);
+  border-radius: none;
+
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+
+  transition: all 0.2s ease-out;
+}
+
+input[type="number"]:focus {
+  background-color: white;
+
+  border: 1px solid var(--color-mustard-midtone);
+
+  outline: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+#prayer-section button {
+  position: relative;
+
+  height: 100%;
+
+  margin-top: 32px;
+  padding: 12px 16px;
+
+  background-color: var(--color-mustard-extra-light);
+
+  border: 1px solid var(--color-mustard-light);
+  border-radius: none;
+
+  transition: all 0.1s ease-out;
+
+  cursor: pointer;
+
+  -webkit-appearance: none;
+
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+#prayer-section button {
+  margin: 0;
+
+  color: var(--color-black);
+}
+
+#prayer-section button:active,
+button:focus {
+  outline: none;
+}
+
+#prayer-section button::after {
+  content: "";
+
+  position: absolute;
+
+  opacity: 1;
+
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  transition: inherit;
+
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#prayer-section button:disabled {
+  pointer-events: none;
+}
+
+#prayer-section button:disabled::after {
+  opacity: 0.25;
+}
+
+#prayer-section .button-decrement::after {
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M17 12H7' stroke='%23112C34' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+}
+
+#prayer-section .button-increment::after {
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 7V17' stroke='%23112C34' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M17 12H7' stroke='%23112C34' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+}
+
+#prayer-section .button-decrement {
+  border-right: none;
+}
+
+#prayer-section .button-increment {
+  border-left: none;
+}
+
+@media (hover: hover) {
+  input[type="number"]:hover,
+  #prayer-section button:hover {
+      background-color: white;
+  }
+
+  #prayer-section button:active {
+      background-color: var(--color-mustard-extra-light);
+      transform: translateY(1px);
+  }
+}
+
+@media (hover: none) {
+  #prayer-section button:active {
+      background-color: white;
+      transform: translateY(1px);
+  }
+}
+
+</style>
+
+<div>
+  <h3><span class="tally-display-hours"></span> hours and <span class="tally-display-minutes"></span> minutes total</h3>
+
+  <div id="prayer-section">
+    <form action="javascript:void(0);">
+        <div>
+            <div>
+                <label for="hue">Reading minutes tally</label>
+            </div>
+            <div class="number-input-container">
+                <button
+                    type="button"
+                    class="button-decrement"
+                    onclick="setNumber(event)"
+                    data-input-id="hue"
+                    data-operation="decrement"
+                ></button>
+                <div class="number-input">
+                    <input
+                        type="number"
+                        id="hue"
+                        name="hue"
+                        class="number-input-text-box"
+                        value="0"
+                        min="0"
+                        max="360"
+                        oninput="handleNumberInput()"
+                        onblur="handleNumberInputBlur(event)"
+                        data-step="5"
+                    />
+                </div>
+                <button
+                    type="button"
+                    class="button-increment"
+                    onclick="setNumber(event)"
+                    data-input-id="hue"
+                    data-operation="increment"
+                ></button>
+            </div>
+            <button
+                    type="button"
+                    onclick="addTime(event)"
+                >Add time</button>
+        </div>
+    </form>
+</div>
+
+<h2>Weekly Reading</h2>
+    <canvas id="weekChart"></canvas>
+    
+  <h2>Hours of the day</h2>
+    <canvas id="hoursChart"></canvas>
+  
+  <h2>Days of the week</h2>
+    <canvas id="daysChart"></canvas>
+</div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="/reading.js"></script>
+  
+  
+  <script>
+    getTimespans().then((timespans) => {
+      const [hoursMap, daysMap, weeklyMap] = timespans;
+      const endIndex = daysMap.size - 1;
+
+      const hoursChart = document.getElementById('hoursChart');
+      const daysChart = document.getElementById('daysChart');
+      const weekChart = document.getElementById('weekChart');
+  
+      new Chart(weekChart, {
+        type: 'line',
+        data: {
+          labels: [...weeklyMap.keys()],
+          datasets: [{
+            label: 'Minutes in the Word',
+            data: [...weeklyMap.values()],
+            borderWidth: 1
+          }]
+        },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true
+            }
+          }
+        }
+      });
+      
+      new Chart(hoursChart, {
+        type: 'bar',
+        data: {
+          labels: [...hoursMap.keys()],
+          datasets: [{
+            label: 'Minutes in the Word',
+            data: [...hoursMap.values()],
+            borderWidth: 1
+          }]
+        },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true
+            }
+          }
+        }
+      });
+      
+      new Chart(daysChart, {
+        type: 'bar',
+        data: {
+          labels: [...daysMap.keys()],
+          datasets: [{
+            label: 'Minutes in Word',
+            data: [...daysMap.values()],
+            borderWidth: 1
+          }]
+        },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true
+            }
+          }
+        }
+      });
+    }).catch(error => console.log(error));
+  </script>

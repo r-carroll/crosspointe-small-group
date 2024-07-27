@@ -35,6 +35,29 @@ app.post('/prayer',async (request,response) => {
   
 });
 
+app.get('/reading', async (req, res) => {
+    const readingMinutes = await getReadingMinutes();
+    res.send(200, readingMinutes);
+})
+
+app.get('/reading/timespan', async (req, res) => {
+  const timespans = await getReadingByTimespan();
+  res.send(200, timespans);
+})
+
+app.post('/reading',async (request,response) => {
+  const duration = parseInt(request.query.minutes);
+  const passage = request.query.passage;
+  try {
+    await saveReadingEntry(duration, passage)
+    response.sendStatus(200);
+  }
+  catch(error) {
+    response.sendStatus(500);
+  }
+  
+});
+
 app.listen(port, '127.0.0.1', () => {
   console.log(`Example app listening on port ${port}`)
 })
@@ -47,8 +70,22 @@ async function savePrayerEntry(duration) {
     await queryDB(writeQuery, values);
 }
 
+async function saveReadingEntry(duration, passage) {
+  const writeQuery = 'insert into reading (duration, passage, submitted_time)' +
+    `values ($1, $2, CURRENT_TIMESTAMP)`;
+  const values = [duration, passage];
+  
+    await queryDB(writeQuery, values);
+}
+
 async function getPrayerMinutes() { 
   const readQuery = 'select sum(duration) from prayers;';
+  let readResult = await queryDB(readQuery);
+  return readResult.rows[0].sum || 0;
+}
+
+async function getReadingMinutes() { 
+  const readQuery = 'select sum(duration) from reading;';
   let readResult = await queryDB(readQuery);
   return readResult.rows[0].sum || 0;
 }
@@ -58,6 +95,17 @@ async function getEntriesByTimespan() {
     extract(hour from submitted_time) as hour,
     extract(dow from submitted_time) as day
      from prayers where submitted_time is not null order by hour) as subquery;`
+  
+  const readResult = await queryDB(readQuery);
+
+  return readResult.rows[0];
+}
+
+async function getReadingByTimespan() {
+  const readQuery = `select json_agg(subquery) as timespans from (select *, 
+    extract(hour from submitted_time) as hour,
+    extract(dow from submitted_time) as day
+     from reading where submitted_time is not null order by hour) as subquery;`
   
   const readResult = await queryDB(readQuery);
 

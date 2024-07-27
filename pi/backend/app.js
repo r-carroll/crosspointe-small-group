@@ -58,7 +58,7 @@ app.post('/reading',async (request,response) => {
   
 });
 
-app.listen(port, '127.0.0.1', () => {
+app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
 

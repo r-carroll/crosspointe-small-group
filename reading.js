@@ -29,7 +29,7 @@ function updateTally(tallyType = 'reading') {
 }
 
 async function getTimespans(tallyType = 'reading') {
-    const response = await fetch(`${apiUrl}/${tallyType}/timespans`);
+    const response = await fetch(`${apiUrl}/${tallyType}/timespan`);
     const json = await response.json();
     let hoursMap = new Map();
     let daysMap = new Map();

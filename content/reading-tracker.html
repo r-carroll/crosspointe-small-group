@@ -225,6 +225,7 @@ button:focus {
 
 <div>
   <h3><span class="tally-display-hours"></span> hours and <span class="tally-display-minutes"></span> minutes total</h3>
+  <h3><span class="tally-display-week-hours"></span> hours and <span class="tally-display-week-minutes"></span> minutes this week</h3>
 
   <div id="prayer-section">
     <form action="javascript:void(0);">
@@ -348,7 +349,7 @@ button:focus {
   <h2>Days of the week</h2>
     <canvas id="daysChart"></canvas>
   
-  <h2>Book</h2>
+  <h2>Minutes spent in each book</h2>
     <canvas id="bookChart"></canvas>
 </div>
   
@@ -368,6 +369,18 @@ button:focus {
       const daysChart = document.getElementById('daysChart');
       const weekChart = document.getElementById('weekChart');
       const bookChart = document.getElementById('bookChart');
+      const weeklyHoursTally = document.getElementById('tally-display-week-hours');
+      const weeklyMinutesTally = document.getElementById('tally-display-week-minutes');
+
+      const weeklyTotal = [...weeklyMap.values()].reduce((prev, current) => prev + current, 0);
+
+      for(element in weeklyHoursTally) {
+        element.innerText = weeklyTotal / 60;
+      }
+
+      for(element in weeklyMinutesTally) {
+        element.innerText = weeklyTotal % 60;
+      }
   
       new Chart(weekChart, {
         type: 'line',

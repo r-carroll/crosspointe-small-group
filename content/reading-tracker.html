@@ -374,7 +374,7 @@ button:focus {
 
       const weeklyTotal = [...weeklyMap.values()].reduce((prev, current) => prev + current, 0);
 
-      weeklyHoursTally.innerText = weeklyTotal / 60;
+      weeklyHoursTally.innerText = Math.floor(weeklyTotal / 60);
 
       weeklyMinutesTally.innerText = weeklyTotal % 60;
   

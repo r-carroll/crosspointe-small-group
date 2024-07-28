@@ -33,14 +33,16 @@ async function getTimespans(tallyType = 'reading') {
     const json = await response.json();
     let hoursMap = new Map();
     let daysMap = new Map();
+    let booksMap = new Map();
     let timespans = json.timespans;
     timespans.forEach(element => {
         populateHoursMap(hoursMap, element);
         populateDaysMap(daysMap, element);
+        populateBooksMap(booksMap, element);
     });
     daysMap = formatDaysMap(daysMap);
     const weeklyMap = populateWeeklyMap(timespans);
-    return [hoursMap, daysMap, weeklyMap];
+    return [hoursMap, daysMap, weeklyMap, booksMap];
 }
 
 function populateDaysMap(daysMap, element) {
@@ -73,6 +75,14 @@ function populateWeeklyMap(timespans) {
     });
 
     return weeklyMap;
+}
+
+function populateBooksMap(booksMap, element) {
+    let entry = booksMap.get(element.passage);
+    let sum = element.duration + (entry || 0);
+    booksMap.set(element.passage, sum);
+
+    return booksMap;
 }
 
 function isInCurrentWeek(element, sunday) {

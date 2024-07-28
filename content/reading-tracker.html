@@ -374,13 +374,9 @@ button:focus {
 
       const weeklyTotal = [...weeklyMap.values()].reduce((prev, current) => prev + current, 0);
 
-      for(element in weeklyHoursTally) {
-        element.innerText = weeklyTotal / 60;
-      }
+      weeklyHoursTally.innerText = weeklyTotal / 60;
 
-      for(element in weeklyMinutesTally) {
-        element.innerText = weeklyTotal % 60;
-      }
+      weeklyMinutesTally.innerText = weeklyTotal % 60;
   
       new Chart(weekChart, {
         type: 'line',

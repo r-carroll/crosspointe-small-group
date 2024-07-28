@@ -139,9 +139,15 @@ function translateDays(dayOfWeek) {
 
 function addTime(event, tallyType = 'reading') {
 const hue = document.getElementById('hue');
+const bookDropdown = document.getElementById('book-dropdown');
 const minutes = hue.value;
+let selectedBook = bookDropdown.value;
 
-fetch(`${apiUrl}/${tallyType}?minutes=${minutes}`, {
+if (!selectedBook) {
+    selectedBook = null;
+}
+
+fetch(`${apiUrl}/${tallyType}?minutes=${minutes}&passage=${selectedBook}`, {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',

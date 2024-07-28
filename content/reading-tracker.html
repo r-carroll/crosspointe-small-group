@@ -262,6 +262,7 @@ button:focus {
                     data-operation="increment"
                 ></button>
             </div>
+            <label for="book-dropdown">Book</label>
             <select id="book-dropdown">
               <option value="Genesis">Genesis</option>
               <option value="Exodus">Exodus</option>
@@ -346,6 +347,9 @@ button:focus {
   
   <h2>Days of the week</h2>
     <canvas id="daysChart"></canvas>
+  
+  <h2>Book</h2>
+    <canvas id="bookChart"></canvas>
 </div>
   
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -357,12 +361,13 @@ button:focus {
   
   <script>
     getTimespans().then((timespans) => {
-      const [hoursMap, daysMap, weeklyMap] = timespans;
+      const [hoursMap, daysMap, weeklyMap, booksMap] = timespans;
       const endIndex = daysMap.size - 1;
 
       const hoursChart = document.getElementById('hoursChart');
       const daysChart = document.getElementById('daysChart');
       const weekChart = document.getElementById('weekChart');
+      const bookChart = document.getElementById('bookChart');
   
       new Chart(weekChart, {
         type: 'line',
@@ -418,6 +423,17 @@ button:focus {
               beginAtZero: true
             }
           }
+        }
+      });
+      
+      new Chart(bookChart, {
+        type: 'pie',
+        data: {
+          labels: [...booksMap.keys()],
+          datasets: [{
+            label: 'Time spent in each book',
+            data: [...booksMap.values()]
+          }]
         }
       });
     }).catch(error => console.log(error));

@@ -11,5 +11,7 @@ services:
       POSTGRES_USER: ${PGUSER}
       POSTGRES_DB: smallgroupdb
       POSTGRES_PASSWORD: ${PGPASSWORD}
+      TZ: 'EST'
+      PGTZ: 'EST'
     volumes:
        - /media/usbdrive/smallgroup/db:/var/lib/postgresql/data

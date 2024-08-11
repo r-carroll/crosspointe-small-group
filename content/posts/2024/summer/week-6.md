@@ -16,14 +16,6 @@ draft: false
 6. Scripture explains that righteousness is a gift for all people. How does this help us understand God's heart for the lost?
 
 ## Next Steps
-It’s important that we continually recognize the grace and mercy God has shown us. Instead of
-buying into the false notion that we are basically good people, consider the truth that God has
-saved you through faith in the person and work of His Son and focus on putting aside all boasting
-so that you may only exalt God in and through your life.
-
-What reading goals do we want to set?
-
-## Next Steps
 Continue working on the prayer challenge! We are roughly 3 hours behind this week, but there's still time to catch up! We have a weekly goal of ~9 hours.
 
 ## Prayer Focus

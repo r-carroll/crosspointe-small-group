@@ -4,3 +4,4 @@ db/data
 **/node_modules/**
 pi/backend/env.sh
 db/env.sh
+public/*

@@ -126,6 +126,22 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
+.text-green {
+  color: green;
+}
+
+.mt {
+  margin-top: 10px;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
 #prayer-section button {
   position: relative;
 
@@ -336,6 +352,7 @@ button:focus {
                     type="button"
                     onclick="addTime(event)"
                 >Add time</button>
+            <p id="success-message" class="text-green mt hide">Reading added successfully!</p>
         </div>
     </form>
 </div>
@@ -352,7 +369,7 @@ button:focus {
   <h2>Minutes spent in each book</h2>
     <canvas id="bookChart"></canvas>
 </div>
-  
+  <link rel="stylesheet" href="/toast.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="/reading.js"></script>
   <script>

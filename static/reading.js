@@ -167,6 +167,8 @@ fetch(`${apiUrl}/${tallyType}?minutes=${minutes}&passage=${selectedBook}`, {
   {
     response.json();
     updateTally();
+    const message = document.getElementById('success-message');
+    message.classList.replace('hide', 'show');
     })
   .then((data) => {
     console.log('Success:', data);

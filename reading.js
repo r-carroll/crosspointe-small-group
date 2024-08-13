@@ -1,4 +1,6 @@
 const apiUrl = 'https://drive.carrollmedia.dev:3008';
+const WEEKLY_GOAL = 560;
+const TOTAL_GOAL = 1680;
 let tally = 0;
     function init() {
     // enable active states for buttons in mobile safari
@@ -25,6 +27,12 @@ function updateTally(tallyType = 'reading') {
     for(element of tallyDisplayMinutes) {
         element.innerText = minutes;
     }
+
+    const totalProgress = totalMinutes / TOTAL_GOAL * 100;
+    const totalProgressDisplay = document.getElementById('total-progress');
+    const totalProgressPercent = document.getElementById('total-progress-percent');
+    totalProgressDisplay.setAttribute('value', totalProgress);
+    totalProgressPercent.innerHTML = `${totalProgress.toFixed()}% `;
 });
 }
 
@@ -167,6 +175,8 @@ fetch(`${apiUrl}/${tallyType}?minutes=${minutes}&passage=${selectedBook}`, {
   {
     response.json();
     updateTally();
+    const message = document.getElementById('success-message');
+    message.classList.replace('hide', 'show');
     })
   .then((data) => {
     console.log('Success:', data);

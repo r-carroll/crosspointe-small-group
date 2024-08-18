@@ -1,5 +1,8 @@
-Faith in God’s Promise
-Romans: Volume 2 - Week 3 | Week of August 18, 2024
+---
+title: "Romans: Faith in God’s Promise"
+date: 2024-08-18
+draft: false
+---
 
 ## Big Idea
 You can count on God’s promises!

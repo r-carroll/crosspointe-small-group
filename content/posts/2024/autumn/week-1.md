@@ -1,11 +1,14 @@
-Two Men, Two Outcomes, One Hope
-Romans: Volume 2 | Week of October 6, 2024
+---
+title: Romans: Two Men, Two Outcomes, One Hope
+date: 2024-10-6
+draft: false
+---
 
 ## Big Idea
 Jesus restores what Adam destroyed.
 
 ## Read: 
-Romans 5:15-21
+[Romans 5:15-21](https://www.bible.com/bible/59/ROM.5.ESV)
 
 ## Discussion Questions
 1. What insight, principle, or observation from this week’s sermon was the most helpful, eye-

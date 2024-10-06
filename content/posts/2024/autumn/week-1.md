@@ -1,7 +1,7 @@
 
 ---
 title: "Romans: Two Men, Two Outcomes, One Hope"
-date: 2024-10-6
+date: 2024-10-06
 draft: false
 ---
 

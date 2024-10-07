@@ -1,6 +1,6 @@
 const apiUrl = 'https://drive.carrollmedia.dev:3008';
-const WEEKLY_GOAL = 560;
-const TOTAL_GOAL = 1680;
+const WEEKLY_GOAL = 700;
+const TOTAL_GOAL = 4800;
 let tally = 0;
     function init() {
     // enable active states for buttons in mobile safari

@@ -85,7 +85,7 @@ async function getPrayerMinutes() {
 }
 
 async function getReadingMinutes() { 
-  const readQuery = 'select sum(duration) from reading;';
+  const readQuery = "select sum(duration) from reading where submitted_time > '2024-08-24 17:31:26.652635';";
   let readResult = await queryDB(readQuery);
   return readResult.rows[0].sum || 0;
 }
@@ -105,7 +105,7 @@ async function getReadingByTimespan() {
   const readQuery = `select json_agg(subquery) as timespans from (select *, 
     extract(hour from submitted_time) as hour,
     extract(dow from submitted_time) as day
-     from reading where submitted_time is not null order by hour) as subquery;`
+     from reading where submitted_time is not null and submitted_time > '2024-08-24 17:31:26.652635' order by hour) as subquery;`
   
   const readResult = await queryDB(readQuery);
 

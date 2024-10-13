@@ -23,7 +23,7 @@ resurrection empower us to live a new life?
 this possible?
 
 ## Next Steps
-Consider how your small group can each other to embrace the transformative power of grace and
+Consider how your small group can support each other to embrace the transformative power of grace and
 live in righteousness. Discuss this as you conclude your group time this week.
 
 ## Prayer Focus

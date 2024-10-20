@@ -1,4 +1,8 @@
-
+---
+title: "Romans: United with Christ"
+date: 2024-10-20
+draft: false
+---
 ## Big Idea
 Every believer is united with Christ for a purpose.
 

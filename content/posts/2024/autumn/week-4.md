@@ -1,9 +1,14 @@
+---
+title: "Romans: A Tale of Two Masters"
+date: 2024-11-03
+draft: false
+---
 
 ## Big Idea
 Every Christian is a slave.
 
-##Read: 
-[Romans 6:15-23](
+## Read: 
+[Romans 6:15-23](https://www.bible.com/bible/59/ROM.6.ESV)
 
 ## Discussion Questions
 1. What insight, principle, or observation from this week’s sermon was the most helpful, eye-

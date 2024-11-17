@@ -1,4 +1,8 @@
-What’s Law Got to Do With It?
+---
+title: "Romans: What’s Law Got to Do With It?"
+date: 2024-11-17
+draft: false
+---
 
 ## Ice Breaker
 What’s the most ridiculous or unexpected rule you’ve ever had to follow?
@@ -7,7 +11,7 @@ What’s the most ridiculous or unexpected rule you’ve ever had to follow?
 God’s law is good.
 
 ## Read: 
-[Romans 7:7-12](
+[Romans 7:7-12](https://www.bible.com/bible/59/ROM.7.ESV)
 
 ## Discussion Questions
 1. How does Paul’s statement, "I would not have known what sin was except through the law"

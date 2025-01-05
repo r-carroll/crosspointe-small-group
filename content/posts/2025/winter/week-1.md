@@ -4,6 +4,10 @@ date: 2025-01-05
 draft: false
 ---
 
+### Read
+* [Exodus 1:15-21](https://www.bible.com/bible/59/EXO.1.ESV)
+* [Psalm 130](https://www.bible.com/bible/59/PSA.130.ESV)
+
 ### Questions
 1. Do you find the story of the Hebrew midwives (Ex 1:15-21) inspiring? If so, why?
 2. Martin Luther and other reformers contrasted “servile fear” with “filial fear.” What do you remember about this distinction from the message? Why does this matter?

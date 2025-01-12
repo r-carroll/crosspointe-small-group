@@ -1,4 +1,8 @@
-Trust The Lord
+---
+title: "Trust The Lord"
+date: 2025-01-12
+draft: false
+---
 
 ## Ice Breaker
 What’s one thing you find hard to share or let someone else take control of (e.g., driving the
@@ -8,7 +12,7 @@ car, choosing the restaurant, planning an event)? Why is it hard to let go?
 You must trust God.
 
 ## Read: 
-[Proverbs 3:5-6](
+[Proverbs 3:5-6](https://www.bible.com/bible/59/ROM.7.ESV)
 
 ## Discussion Questions
 1. What does it mean to trust in the Lord with all your heart? Why do you think God requires

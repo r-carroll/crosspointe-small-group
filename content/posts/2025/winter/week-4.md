@@ -1,4 +1,8 @@
-The Folly of Not Trusting the Lord
+---
+title: "The Folly of Not Trusting the Lord"
+date: 2025-01-26
+draft: false
+---
 
 ## Ice Breaker
 What’s one big decision or moment in your life when you had to rely on someone else’s

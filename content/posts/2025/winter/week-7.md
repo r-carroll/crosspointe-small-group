@@ -20,6 +20,6 @@ your life? Is it painless? How can we cultivate gratefulness for this process?
 5. Why was it such a big deal that the people were cutting corners on their tithe? See 3:10-12.
 
 ## Next Steps
-1. 2. 3. Repent of faithless words, actions.
-Thank God that we have abundant reasons to trust Him.
-Commit to speaking truthfully about God and giving generously to show you trust Him
+1. Repent of faithless words, actions.
+2. Thank God that we have abundant reasons to trust Him.
+3. Commit to speaking truthfully about God and giving generously to show you trust Him

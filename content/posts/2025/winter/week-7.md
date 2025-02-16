@@ -1,4 +1,9 @@
-The God and the Faithless
+---
+title: "The God and the Faithless"
+date: 2025-02-16
+draft: false
+---
+
 ## Read:
 [Malachi 2:17 – 3:12](https://www.bible.com/bible/59/DEU.1.ESV)
 

@@ -23,9 +23,14 @@ and often for each other flows \
 the sympathizing tear. 
 
 ### Corporate Reading of Ephesians 4
-[Tap tp Open Bible app](https://www.bible.com/bible/59/EPH.4.ESV)
+[Tap to Open Bible app](https://www.bible.com/bible/59/EPH.4.ESV)
 
 ### Prayer
 1. Pray through the Word
 2. Pray for the church
+    1. Pastors/leaders
+    2. Deacons
+    3. Ministries
+    4. Members
+    5. Missionaries 
 3. Groups of 2-3, pray for each other

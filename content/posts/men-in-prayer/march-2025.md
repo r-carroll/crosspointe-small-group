@@ -23,7 +23,7 @@ and often for each other flows \
 the sympathizing tear. 
 
 ### Corporate Reading of Ephesians 4
-<a href="https://www.bible.com/bible/59/EPH.4.ESV" target="_blank">Tap to open Bible app </a>
+[Tap to open Bible app](https://www.bible.com/bible/59/EPH.4.ESV)
 
 ### Prayer
 1. Pray through the Word

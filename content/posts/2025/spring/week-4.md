@@ -1,3 +1,8 @@
+---
+title: "Assurance"
+date: 2025-04-27
+draft: false
+---
 
 ## Read
 [Romans 8:31-34](https://www.bible.com/bible/59/ROM.8.ESV)

@@ -1,4 +1,8 @@
-
+---
+title: "Forever secure in Christ’s love"
+date: 2025-05-04
+draft: false
+---
 
 ## Icebreaker Question
 What’s the most ridiculous thing you’ve ever held onto ‘just in case’

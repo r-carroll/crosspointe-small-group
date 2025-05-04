@@ -9,6 +9,9 @@ What’s the most ridiculous thing you’ve ever held onto ‘just in case’
 —but never
 used again?
 
+## Read
+[Romans 8:35-39](https://www.bible.com/bible/59/ROM.8.ESV)
+
 ## Questions
 1. What kinds of suffering or hardship might cause someone to question God’s
 love—and how does Paul confront that fear in this passage?

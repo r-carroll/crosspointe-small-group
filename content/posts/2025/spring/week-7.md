@@ -7,6 +7,10 @@ draft: false
 ## Icebreaker Question
 What’s a time when you were asked to do something outside your comfort
 zone? How did you respond, and what did you learn from it?
+
+## Read
+[Judges 6:11-24](https://www.bible.com/bible/59/JDG.6.ESV)
+
 ## Questions
 1. How does God's presence in Gideon's fear-filled context shape your
 understanding of how God calls and equips His people?

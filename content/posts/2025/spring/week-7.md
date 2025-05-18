@@ -1,4 +1,8 @@
-
+---
+title: "God meets us in our weakness"
+date: 2025-05-18
+draft: false
+---
 
 ## Icebreaker Question
 What’s a time when you were asked to do something outside your comfort

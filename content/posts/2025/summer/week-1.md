@@ -1,5 +1,8 @@
-
-
+---
+title: "Trust the Lord: More Than Myself"
+date: 2025-07-06
+draft: false
+---
 
 ## Icebreaker 
 Share a time when you thought you knew what you were

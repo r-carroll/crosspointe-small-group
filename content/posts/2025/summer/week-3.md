@@ -20,6 +20,6 @@ This week, pray specifically for God to reveal areas where you’re tempted to t
 ## Next Steps
 The “First Turn” Challenge
 Throughout this week, practice making God your “first turn” rather than your last resort. Here’s how:
-	1.	Identify your “phone moments” - Notice when you instinctively reach for your phone, social media, or other distractions when feeling stressed or anxious.
-	2.	Pause and pray first - Before reaching for that comfort or distraction, take 30 seconds to acknowledge God’s sovereignty over your situation and ask for His help.
-	3.	End-of-day reflection - Each evening, briefly consider: “What did I turn to for help today? When did I remember to turn to God first, and when did I forget?”
+1.	Identify your “phone moments” - Notice when you instinctively reach for your phone, social media, or other distractions when feeling stressed or anxious.
+2.	Pause and pray first - Before reaching for that comfort or distraction, take 30 seconds to acknowledge God’s sovereignty over your situation and ask for His help.
+3.	End-of-day reflection - Each evening, briefly consider: “What did I turn to for help today? When did I remember to turn to God first, and when did I forget?”

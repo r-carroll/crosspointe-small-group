@@ -30,14 +30,17 @@ rejoice that salvation depends on His
 mercy, not your merit.
 
 ## Prayer Focus
-*Praise* God for His sovereign mercy—that
+_Praise_ God for His sovereign mercy—that
 salvation is by grace and not by works.
-*Confess* any frustration or pride in wanting
+
+_Confess_ any frustration or pride in wanting
 God to operate according to our standards.
 Thank God for saving us when we didn’t
 deserve it.
-*Ask* for a deeper trust in God’s wisdom and a
+
+_Ask_ for a deeper trust in God’s wisdom and a
 heart that finds joy in His will.
-*Intercede* for unbelieving friends or family,
+
+_Intercede_ for unbelieving friends or family,
 asking God to grant them mercy and soften
 their hearts.

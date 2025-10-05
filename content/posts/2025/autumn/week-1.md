@@ -1,6 +1,9 @@
+---
+title: "Romans 11: God’s Purposes Never Fail."
+date: 2025-10-05
+draft: false
+---
 
-
-God’s Purposes Never Fail.
 ## Read
 [Romans 11:7-12](https://www.bible.com/bible/59/ROM.11.ESV)
 

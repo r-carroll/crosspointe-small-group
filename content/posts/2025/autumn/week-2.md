@@ -1,11 +1,15 @@
+---
+title: "Romans 11: The Gospel is for Everyone."
+date: 2025-10-12
+draft: false
+---
 
 ## Icebreaker Question
 What’s one thing you’ve recommended to others recently—a restaurant, movie,
 podcast, or product—that you were excited about?
 
 ## Read
-[Romans 11:13-16]
-The Gospel is for Everyone.
+[Romans 11:13-16](https://www.bible.com/bible/59/ROM.11.ESV)
 
 ## Questions
 1. In verses 13–14 Paul says he “magnifies” his ministry to the Gentiles. Why

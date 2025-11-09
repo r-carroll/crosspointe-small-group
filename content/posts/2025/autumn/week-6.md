@@ -1,3 +1,11 @@
+---
+title: "Romans 11: God’s reliability"
+date: 2025-11-09
+draft: false
+---
+
+## Scripture
+[Romans 11:25-32](https://www.bible.com/bible/59/ROM.11.ESV)
 
 ## Icebreaker Question
 What’s a time in your life when things looked hopeless, but later you could see how

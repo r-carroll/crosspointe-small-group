@@ -1,7 +1,11 @@
-Small Group Leader Guide
-Week 6
-Psalm 150 
-You must praise God.
+---
+title: "You must praise God."
+date: 2026-02-15
+draft: false
+---
+
+## Scripture
+[Psalm 150](https://www.bible.com/bible/59/PSA.150.ESV). 
 
 ## Questions
 1. Verse 1 commands praise both “in His sanctuary” and “in His mighty

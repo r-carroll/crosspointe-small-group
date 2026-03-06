@@ -1,6 +1,6 @@
 ---
 title: "Men in Prayer March 2026"
-date: 2025-04-06
+date: 2026-03-06
 draft: false
 ---
 
